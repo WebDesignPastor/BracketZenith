@@ -15,7 +15,7 @@ CREATE TABLE users (
     last_name TEXT NOT NULL,
     password TEXT NOT NULL,
     email TEXT NOT NULL UNIQUE,
-    phone TEXT NOT NULL UNIQUE
+    phone TEXT UNIQUE
 );
 
 -- Create the players table
